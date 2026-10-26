@@ -23,3 +23,6 @@ Como executar:
 npm install
 npm test
 npm run cy:open
+
+
+<img width="1915" height="938" alt="image" src="https://github.com/user-attachments/assets/cd80870d-d056-4b91-b70c-d167aa1aa0cd" />
