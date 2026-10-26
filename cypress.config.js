@@ -6,6 +6,7 @@ module.exports = defineConfig({
     apiUrl: 'https://serverest.dev',
   },
   e2e: {
+    experimentalRunAllSpecs: true,
     baseUrl: 'https://front.serverest.dev',
     specPattern: 'cypress/e2e/**/*.cy.js',
     supportFile: 'cypress/support/e2e.js',
