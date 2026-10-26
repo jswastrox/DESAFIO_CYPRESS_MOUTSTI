@@ -1,0 +1,22 @@
+name: Cypress
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  automacao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Executar cenários
+        run: npm test
