@@ -13,6 +13,6 @@ Cenários:
 
 Como executar:
 
-npm install
-npm test
-npm run cy:open
+* npm install
+* npm test
+* npm run cy:open
