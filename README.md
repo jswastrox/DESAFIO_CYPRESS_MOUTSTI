@@ -23,7 +23,3 @@ Como executar:
 npm install
 npm test
 npm run cy:open
-    commands.js   # setup e limpeza
-```
-
-O fluxo de interface que depende de produto cria o item pela API antes de abrir o browser. Isso evita acoplar o teste ao catálogo compartilhado.
